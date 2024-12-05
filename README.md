@@ -11,6 +11,7 @@ in main.go make sure the file name in the `// #cgo pkg-config: python-3.10-embed
 
 then execute:
 ```sh 
-zsh run.sh
+source set_env.sh
+go run main.go
 ```
 
