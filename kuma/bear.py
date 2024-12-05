@@ -11,7 +11,9 @@ def detect(data: list[float]) -> list[float]:
 
 
 def gen_test_data() -> list[float]:
-    return [
+    data = [
         (random.random() * 2.0 - 1.0) * 100.0
         for _ in range(10)
     ]
+    print(f"hello from python, again: {data=}")
+    return data
